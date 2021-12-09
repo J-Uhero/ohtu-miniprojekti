@@ -1,6 +1,6 @@
-from entities.book import Book
+from src.entities.book import Book
 
-from repositories.book_repository import book_repository
+from src.repositories.book_repository import book_repository
 
 class BookService:
     def __init__(self, repository=book_repository):

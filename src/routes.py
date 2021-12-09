@@ -1,9 +1,9 @@
 from flask import render_template, request, redirect
 
-from app import app
-from services.weblink_service import WeblinkService
-from services.book_service import BookService
-from services.podcast_service import PodcastService
+from src.app import app
+from src.services.weblink_service import WeblinkService
+from src.services.book_service import BookService
+from src.services.podcast_service import PodcastService
 
 weblink_service = WeblinkService()
 book_service = BookService()

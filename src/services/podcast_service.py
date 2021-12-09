@@ -1,6 +1,6 @@
-from entities.podcast import Podcast
+from src.entities.podcast import Podcast
 
-from repositories.podcast_repository import podcast_repository
+from src.repositories.podcast_repository import podcast_repository
 
 class PodcastService:
     def __init__(self, repository=podcast_repository):

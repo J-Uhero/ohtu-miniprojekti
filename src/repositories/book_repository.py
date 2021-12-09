@@ -1,5 +1,5 @@
-from database import db
-from entities.book import Book
+from src.database import db
+from src.entities.book import Book
 
 class BookRepository:
     def __init__(self):

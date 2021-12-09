@@ -1,6 +1,6 @@
-from app import app
-from database import db
-from config import PORT, HOST
+from src.app import app
+from src.database import db
+from src.config import PORT, HOST
 
 port = PORT or 5000
 

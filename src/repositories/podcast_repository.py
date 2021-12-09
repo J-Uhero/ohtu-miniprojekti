@@ -1,5 +1,5 @@
-from database import db
-from entities.podcast import Podcast
+from src.database import db
+from src.entities.podcast import Podcast
 
 class PodcastRepository:
     def __init__(self):
