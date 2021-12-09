@@ -1,5 +1,4 @@
 from flask_sqlalchemy import SQLAlchemy
-
 from src.app import app
 from src.config import DATABASE_URL
 
